@@ -23,7 +23,7 @@ export default function SearchBar(props) {
           id='header-search'
           placeholder='Search Manga Titles'
           name='Search Bar for Manga Titles'
-          onChange={}
+          onChange={props.handleChange}
         />
         <button className="SearchButton" type='button'><SearchIcon /></button>
       </form>
